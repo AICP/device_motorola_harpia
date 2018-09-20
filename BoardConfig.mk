@@ -24,7 +24,9 @@ TARGET_OTA_ASSERT_DEVICE := harpia,harpia_retail
 
 # Camera
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
-	/system/bin/mm-qcamera-daemon=25
+    /system/bin/cameraserver=25 \
+    /system/bin/mediaserver=25 \
+    /system/bin/mm-qcamera-daemon=25
 
 # Kernel
 TARGET_KERNEL_CONFIG := harpia_defconfig
