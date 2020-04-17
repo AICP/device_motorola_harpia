@@ -1,4 +1,4 @@
-# Proprietary files for harpia
+# Device proprietary files - from Motorola package version NPIS26.48-31-2 , unless pinned
 
 # Audio
 vendor/etc/acdbdata/Bluetooth_cal.acdb
