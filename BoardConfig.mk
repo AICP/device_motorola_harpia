@@ -26,7 +26,7 @@ TARGET_OTA_ASSERT_DEVICE := harpia,harpia_retail
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /system/bin/cameraserver=25 \
     /system/bin/mediaserver=25 \
-    /system/bin/mm-qcamera-daemon=25
+    /vendor/bin/mm-qcamera-daemon=25
 
 # Kernel
 TARGET_KERNEL_CONFIG := harpia_defconfig
@@ -44,5 +44,5 @@ TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS += | 0x2002000
 
 # SHIMS
 TARGET_LD_SHIM_LIBS += \
-    /system/lib/libmot_sensorlistener.so|libshims_sensorlistener.so
+    /vendor/lib/libmot_sensorlistener.so|libshims_sensorlistener.so
 

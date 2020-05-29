@@ -1,30 +1,30 @@
 # Proprietary files for harpia
 
 # Audio
-etc/acdbdata/Bluetooth_cal.acdb
-etc/acdbdata/General_cal.acdb
-etc/acdbdata/Global_cal.acdb
-etc/acdbdata/Handset_cal.acdb
-etc/acdbdata/Hdmi_cal.acdb
-etc/acdbdata/Headset_cal.acdb
-etc/acdbdata/Speaker_cal.acdb
+vendor/etc/acdbdata/Bluetooth_cal.acdb
+vendor/etc/acdbdata/General_cal.acdb
+vendor/etc/acdbdata/Global_cal.acdb
+vendor/etc/acdbdata/Handset_cal.acdb
+vendor/etc/acdbdata/Hdmi_cal.acdb
+vendor/etc/acdbdata/Headset_cal.acdb
+vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Camera
-bin/mm-qcamera-daemon
-lib/libadvalgcore.so
-lib/libarcsoft_beautyshot.so
-lib/libcamerabgprocservice.so
-lib/libjscore.so
-lib/libjustshoot.so
-lib/libmm-qcamera.so
-lib/libmmcamera_interface.so
-lib/libmmcamera_lux_standardization.so
-lib/libmmjpeg_interface.so
-lib/libmot-qc-fd-offline.so
-lib/libmotimager_utils.so
-lib/libmpbase.so
-lib/libqomx_core.so
-lib/hw/camera.msm8916.so:lib/hw/camera.vendor.msm8916.so
+vendor/bin/mm-qcamera-daemon
+vendor/lib/libadvalgcore.so
+vendor/lib/libarcsoft_beautyshot.so
+vendor/lib/libcamerabgprocservice.so
+vendor/lib/libjscore.so
+vendor/lib/libjustshoot.so
+vendor/lib/libmm-qcamera.so
+vendor/lib/libmmcamera_interface.so
+vendor/lib/libmmcamera_lux_standardization.so
+vendor/lib/libmmjpeg_interface.so
+vendor/lib/libmot-qc-fd-offline.so
+vendor/lib/libmotimager_utils.so
+vendor/lib/libmpbase.so
+vendor/lib/libqomx_core.so
+vendor/lib/hw/camera.vendor.msm8916.so
 vendor/lib/libactuator_f8v03t_dw9718s.so
 vendor/lib/libactuator_f8v03t_dw9718s_camcorder.so
 vendor/lib/libactuator_f8v03t_dw9718s_camera.so
@@ -103,8 +103,8 @@ vendor/lib/libchromatix_ov8865_l8865aa0_video_hd.so
 vendor/lib/libchromatix_ov8865_l8865aa0_zsl.so
 
 # Sensors
-lib/libmotocalibration.so
-lib/hw/sensors.msm8916.so
+vendor/lib/libmotocalibration.so
+vendor/lib/hw/sensors.msm8916.so
 
 # WCNSS
-etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
