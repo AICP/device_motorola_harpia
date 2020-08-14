@@ -44,4 +44,9 @@
         <item>15</item>
     </integer-array>
 
+    <!-- Default state for LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+
+   <!-- Use default display mode -->
+    <integer name="config_defaultLiveDisplayMode">0</integer>
 </resources>
