@@ -29,6 +29,14 @@ PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := harpia
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME="Moto G Play" \
+    TARGET_DEVICE="harpia" \
     PRIVATE_BUILD_DESC="harpia-user 6.0.1 MPI24.241-15.3 3 release-keys"
 
+PRODUCT_GMS_CLIENTID_BASE := android-motorola
+
 BUILD_FINGERPRINT := "motorola/harpia/harpia:6.0.1/MPI24.241-15.3/3:user/release-keys"
+
+PRODUCT_OVERRIDE_INFO := true
+PRODUCT_OVERRIDE_FINGERPRINT := motorola/harpia/harpia:6.0.1/MPI24.241-15.3/3:user/release-keys
+
