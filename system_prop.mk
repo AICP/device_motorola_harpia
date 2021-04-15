@@ -14,13 +14,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=10
 
-# Dex
-PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.image-dex2oat-filter=quicken \
-    dalvik.vm.image-dex2oat-threads=2 \
-    dalvik.vm.image-dex2oat-cpu-set=0,1 \
-    dalvik.vm.dex2oat-filter=quicken \
-    dalvik.vm.dex2oat-threads=2 \
-    dalvik.vm.dex2oat-cpu-set=0,1 \
-    dalvik.vm.boot-dex2oat-threads=2 \
-    dalvik.vm.boot-dex2oat-cpu-set=0,1
