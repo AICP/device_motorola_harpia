@@ -16,11 +16,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Dex
 PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.image-dex2oat-filter=quicken \
-    dalvik.vm.image-dex2oat-threads=2 \
-    dalvik.vm.image-dex2oat-cpu-set=0,1 \
-    dalvik.vm.dex2oat-filter=quicken \
-    dalvik.vm.dex2oat-threads=2 \
-    dalvik.vm.dex2oat-cpu-set=0,1 \
-    dalvik.vm.boot-dex2oat-threads=2 \
-    dalvik.vm.boot-dex2oat-cpu-set=0,1
+    dalvik.vm.dex2oat-flags=--no-watch-dog \
+    dalvik.vm.dex2oat-filter=interpret-only \
+    dalvik.vm.dex2oat-threads=4 \
+    dalvik.vm.image-dex2oat-filter=speed
