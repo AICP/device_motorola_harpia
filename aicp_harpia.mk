@@ -40,3 +40,7 @@ BUILD_FINGERPRINT := "motorola/harpia/harpia:6.0.1/MPI24.241-15.3/3:user/release
 PRODUCT_OVERRIDE_INFO := true
 PRODUCT_OVERRIDE_FINGERPRINT := motorola/harpia/harpia:6.0.1/MPI24.241-15.3/3:user/release-keys
 
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Jeferson Oliveira (jro1979oliver)"
+
